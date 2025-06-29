@@ -1,0 +1,9 @@
+targets:
+  $default:
+    builders:
+      objectbox_generator:
+        generate_for:
+          - lib/**.dart
+        options:
+          # Optional: specify the path to your model file
+          model_file: lib/objectbox_model.dart
